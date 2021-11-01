@@ -10,5 +10,9 @@ class BookmarkManager < Sinatra::Base
     'Hello World'
   end
 
+  get '/index' do
+    erb :index
+  end
+
   run! if app_file == $PROGRAM_NAME
 end
