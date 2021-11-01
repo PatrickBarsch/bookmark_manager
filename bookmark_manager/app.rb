@@ -7,6 +7,7 @@ class BookmarkManager < Sinatra::Base
   end
 
   get '/bookmarks' do
+    @bookmark_list = ['URL1', 'URL2', 'URL3', 'URL4']
     erb :bookmarks
   end
 
