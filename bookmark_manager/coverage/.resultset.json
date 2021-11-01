@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/pbarsch/Desktop/MAKERS/databases/bookmark_manager/app.rb": {
+      "/Users/mbrosch3/Documents/Makers/Bookmark/bookmark_manager/bookmark_manager/app.rb": {
         "lines": [
           1,
           1,
@@ -12,18 +12,14 @@
           null,
           null,
           1,
-          0,
-          null,
-          null,
-          1,
-          1,
+          2,
           null,
           null,
           1,
           null
         ]
       },
-      "/Users/pbarsch/Desktop/MAKERS/databases/bookmark_manager/spec/features/index_spec.rb": {
+      "/Users/mbrosch3/Documents/Makers/Bookmark/bookmark_manager/bookmark_manager/spec/features/bookmarks_spec.rb": {
         "lines": [
           1,
           1,
@@ -31,10 +27,17 @@
           1,
           1,
           null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          5,
+          null,
           null
         ]
       }
     },
-    "timestamp": 1635781503
+    "timestamp": 1635782704
   }
 }

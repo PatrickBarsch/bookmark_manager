@@ -6,12 +6,8 @@ class BookmarkManager < Sinatra::Base
     register Sinatra::Reloader
   end
 
-  get '/' do
-    'Hello World'
-  end
-
-  get '/index' do
-    erb :index
+  get '/bookmarks' do
+    erb :bookmarks
   end
 
   run! if app_file == $PROGRAM_NAME
